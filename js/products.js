@@ -285,7 +285,7 @@ document.addEventListener("DOMContentLoaded", () => {
             break
           case "whatsapp":
             const message = `Hi! I'm interested in purchasing ${productTitle} from ClearlyU. Could you please provide more details about pricing and availability?`
-            const whatsappNumber = "919876543210"
+            const whatsappNumber = "+918572065876"
             window.open(`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`, "_blank")
             break
         }
